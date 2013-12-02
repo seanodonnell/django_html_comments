@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*.swp
+*.swo
+dist
+django_html_comments.egg-info
+build
