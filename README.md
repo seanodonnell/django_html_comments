@@ -6,9 +6,9 @@
 
 ## Screenshots
 
-![The rich comment editor in action](/screenshots/django_html_commnts_editor.png?raw=true)
+![The rich comment editor in action](/screenshots/django_html_comments_editor.png?raw=true)
 
-![The rendered comment](/screenshots/django_html_commnts_rendered.png?raw=true)
+![The rendered comment](/screenshots/django_html_comments_rendered.png?raw=true)
 
 ## Requirements
 
