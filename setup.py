@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2'
 
 setup(name='django_html_comments',
     description='Django app that provides views to process limited sanitized html comments and a sample tinymce configuration. Compatible with django.contrib.comments and Mezzanines ThreadedComments',
