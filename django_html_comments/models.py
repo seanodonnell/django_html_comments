@@ -2,10 +2,10 @@ from mezzanine.generic.models import ThreadedComment
 from sanitize import sanitize
 
 from django_comments.signals import comment_was_posted
-from django.utils.module_loading import import_by_path
+from django.utils.module_loading import import_string
 from django.conf import settings
 
-comment_class = import_by_path(settings.COMMENT_CLASS)
+comment_class = import_string(settings.COMMENT_CLASS)
 
 
 def comment_sanitizer(sender, comment, request, **kwargs):
