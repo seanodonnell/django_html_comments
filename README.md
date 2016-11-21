@@ -2,7 +2,9 @@
 
 ## Description
 
-[Django](http://www.djangoproject.com) app that provides views to process limited sanitized html comments and a sample [tinymce](http://www.tinymce.com/) configuration for a minimal editor for writing comments. Compatible with django.contrib.comments and [Mezzanine](https://github.com/stephenmcd/mezzanine)'s ThreadedComments
+[Django](http://www.djangoproject.com) app that provides views to process limited sanitized html comments and a sample [tinymce](http://www.tinymce.com/) configuration for a minimal editor for writing comments. Compatible with django_comments and [Mezzanine](https://github.com/stephenmcd/mezzanine)'s ThreadedComments
+
+djangos django.contrib.comments module has been deprecated, and this library now requires the django_comments package to be installed
 
 ## Screenshots
 
@@ -14,7 +16,7 @@
 
 [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
 
-Your comment system needs to be based on django.contrib.comments or mezzanine.generic.models.ThreadedComment. It may work with derivatives of these, but this is all it has been tested with.
+Your comment system needs to be based on django_comments or mezzanine.generic.models.ThreadedComment. It may work with derivatives of these, but this is all it has been tested with.
 
 ## INSTALLATION
 
